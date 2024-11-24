@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="620" height="451" viewBox="0 0 620 451">
+  <defs>
+    <filter id="Rectangle_173190" x="44" y="0" width="533" height="425" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="13" result="blur"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_173189" x="21" y="14" width="581" height="425" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="13" result="blur-2"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_173188" x="0" y="26" width="620" height="425" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="13" result="blur-3"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1072175" data-name="Group 1072175" transform="translate(-114 -7353)">
+    <g transform="matrix(1, 0, 0, 1, 114, 7353)" filter="url(#Rectangle_173190)">
+      <rect id="Rectangle_173190-2" data-name="Rectangle 173190" width="455" height="347" rx="20" transform="translate(83 37)" fill="#d8d8d8"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 114, 7353)" filter="url(#Rectangle_173189)">
+      <rect id="Rectangle_173189-2" data-name="Rectangle 173189" width="503" height="347" rx="20" transform="translate(60 51)" fill="#d8d8d8"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 114, 7353)" filter="url(#Rectangle_173188)">
+      <rect id="Rectangle_173188-2" data-name="Rectangle 173188" width="542" height="347" rx="20" transform="translate(39 63)" fill="#d8d8d8"/>
+    </g>
+  </g>
+</svg>

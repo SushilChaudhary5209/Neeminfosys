@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* OurExpertise component */
+
+/* Add these styles to your CSS file */
+.expertise-card {
+  transition: background-color 0.3s;
+}
+
+/* .expertise-card:hover {
+  background-color: red;
+} */
+
+.expertise-card .icon-container {
+  transition: background-color 0.3s;
+}
+
+.expertise-card:hover .icon-container {
+  background-color: #2641c2;
+  
+}
+
+.expertise-card img {
+  transition: transform 0.3s;
+}
+
+.expertise-card:hover img {
+  transform: rotateY(180deg);
+}
+
+.expertise-card .icon-container svg {
+  transition: fill 0.3s;
+}
+
+.expertise-card:hover .icon-container svg {
+  fill: white; /* Change the icon color to white */
+}

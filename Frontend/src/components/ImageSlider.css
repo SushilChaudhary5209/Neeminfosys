@@ -1,0 +1,51 @@
+/* ImageSlider.css */
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* Custom styles for the arrows */
+.custom-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.next-arrow {
+    right: -50px; /* Position to the right outside the slider */
+}
+
+.prev-arrow {
+    left: -50px; /* Position to the left outside the slider */
+}
+
+/* Hide the default arrows */
+.slick-prev, .slick-next {
+    display: none !important;
+}
+
+
+
+@keyframes pulse {
+  0% {
+    width: 90px;
+    height: 90px;
+  }
+  50% {
+    width: 60px;
+    height: 60px;
+  }
+  100% {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+.neem-icon {
+  animation: pulse 2s infinite ease-in-out;
+}
