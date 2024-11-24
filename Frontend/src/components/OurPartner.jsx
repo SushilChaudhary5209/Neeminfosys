@@ -3,7 +3,7 @@ import React from 'react';
 
 import sudurpashchim_upvc from '../../public/images/sudurpashchim-upvc.jpg';
 import jai_siddha_baba from '../../public/images/jai-siddha-baba.png';
-import Brahma_upvc from '../../public/images/brahma.png';
+import Brahma_upvc from '../../public/images/Brahma.png';
 import timber_group_logo from '../../public/images/timber_group_logo.png';
 import Planet_VT from '../../public/images/Planet VT_logo.png';
 import rcit_logo from '../../public/images/rcit_logo.png';
