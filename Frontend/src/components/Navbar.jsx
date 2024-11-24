@@ -64,7 +64,7 @@ function Navbar() {
                         <div className='flex justify-between'>
                             <li>
                                 <a href="/" className="block py-2 px-3 hover:text-blue-700">
-                                    <img src={Image} alt="Neem Infosys" className='w-[147px] h-[60px]' />
+                                    <img src='https://bluefox.com.np/assets/images/logo.svg' alt="Neem Infosys" className='w-[147px] h-[60px]' />
                                 </a>
                             </li>
                         </div>
