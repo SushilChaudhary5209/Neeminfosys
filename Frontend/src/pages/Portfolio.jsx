@@ -1,6 +1,6 @@
 import React from 'react';
 import { IoIosArrowRoundForward } from 'react-icons/io';
-import Lba_logo2 from '../../public/images/Lba.png';
+import Lba_logo2 from '../../public/images/logo1.png';
 import Lba_college from '../../public/images/Lba-college.png';
 import Mantra from '../../public/images/mantra.png';
 import mantra_hospital from '../../public/images/mantra-hospital.png';
