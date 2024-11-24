@@ -2,10 +2,10 @@
 
 import React, { useState } from 'react';
 import neem_icon from '../../public/images/neem_icon.png';
-import Circle_1 from '../../public/images/Circle-1.webp';
-import Circle_2 from '../../public/images/Circle-2.webp';
-import Circle_3 from '../../public/images/Circle-3.webp';
-import Circle_4 from '../../public/images/Circle-4.webp';
+import Circle_1 from '../../public/images/circle.webp';
+import Circle_2 from '../../public/images/circle1.webp';
+import Circle_3 from '../../public/images/circle2.webp';
+import Circle_4 from '../../public/images/circle3.webp';
 
 const content = [
     {
