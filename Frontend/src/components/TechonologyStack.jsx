@@ -7,7 +7,7 @@ import NodeJS from '../../public/images/NodeJS.png';
 import TypeScript from '../../public/images/TypeScript.png';
 import PHP from '../../public/images/PHP.png';
 import Swift from '../../public/images/Swift.png';
-import objC from '../../public/images/ObjC.png';
+import objC from '../../public/images/Obj.png';
 import kotlin from '../../public/images/Kotlin.webp';
 import Flutter from '../../public/images/Flutter.png';
 
