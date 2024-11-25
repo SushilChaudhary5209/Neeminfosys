@@ -1,35 +1,4 @@
 
-// import './App.css'
-// import Navbar from './components/Navbar';
-// import Footer from './components/Footer';
-// import Button from './components/Button';
-
-// function App() {
-
-//   return (
-//     <>
-//       {/* <Navbar /> */}
-//       {/* <Footer /> */}
-//       <Button />
-//     </>
-//   )
-// }
-
-// export default App;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 import React from 'react';
@@ -43,6 +12,7 @@ import About from './pages/About';
 import Product from './pages/Product';
 import Contact from './pages/Contact';
 import Career from './pages/Career';
+import WebDevelopmentPackage from './pages/WebDevelopmentPackage';
 
 
 
@@ -60,6 +30,7 @@ const AppContent = () => {
         <Route path='/product' element={<Product />} />
         <Route path='/contact' element={<Contact />} />
         <Route path="/career" element={<Career />} />
+        <Route path="/pricing/webdevelopmentpackage" element={<WebDevelopmentPackage />} />
       </Routes>
       <Footer />
     </div>

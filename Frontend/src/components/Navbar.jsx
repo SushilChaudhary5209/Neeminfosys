@@ -160,7 +160,7 @@ function Navbar() {
                       <ul className="py-2 text-sm text-black">
                         <li>
                           <a
-                            href="#"
+                            href="/pricing/webdevelopmentpackage"
                             className="flex items-center  gap-6 font-semibold px-4 py-2 hover:bg-gray-100"
                           >
                             <div className="w-6 h-6 bg-blue-100 rounded flex items-center justify-center">
