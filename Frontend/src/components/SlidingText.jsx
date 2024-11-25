@@ -4,7 +4,7 @@ function SlidingText() {
     return (
         <div>
             <div className='h-[75px] flex justify-center items-center gap-2'>
-                <button className='w-[85px] h-[35px] text-white bg-[#2641c2] rounded-3xl'>
+                <button className='w-[85px] h-[35px] text-white bg-gradient-to-r from-[#2641c2] to-[#3779d7] rounded-3xl'>
                     <a href="/contact"> Contact</a>
                 </button>
                 <div className="marquee w-[200px] hidden md:block">

@@ -7,9 +7,9 @@ function WhiteBGButton({ bgColor,  borderColor, hoverBgColor, text, iconBgColor,
     return (
         <div>
             <button 
-                className={`h-[54px] gap-4 hover:gap-4 flex items-center justify-center rounded-full px-[6px] border-2 ${bgColor} ${borderColor} hover:${hoverBgColor} transition-all duration-3000 transform hover:flex-row-reverse group hover:shadow-[0px_4px_10px_-4px_rgba(0,0,0,0.3),-4px_0px_10px_-4px_rgba(0,0,0,0.3),4px_0px_10px_-4px_rgba(0,0,0,0.3)]`}
+                className={`h-[54px] gap-4 hover:gap-4 flex items-center justify-center rounded-full px-[12px] border-2 ${bgColor} ${borderColor} hover:${hoverBgColor} transition-all duration-3000 transform hover:flex-row-reverse group hover:shadow-[0px_4px_10px_-4px_rgba(0,0,0,0.3),-4px_0px_10px_-4px_rgba(0,0,0,0.3),4px_0px_10px_-4px_rgba(0,0,0,0.3)]`}
             >
-                <span className='transition-all duration-3000'>
+                <span className='transition-all duration-3000 text-[20px]'>
                     {text}
                 </span>
                 <div className={`w-[42px] h-[42px] flex items-center justify-center transition-all duration-3000 rounded-full ${iconColor}`}>
@@ -33,12 +33,12 @@ WhiteBGButton.propTypes = {
 
 WhiteBGButton.defaultProps = {
     bgColor: '',
-    borderColor: 'border-[#2641c2]',
+    borderColor: 'border-[#3779d7]',
     hoverBgColor: 'bg-white',
     text: 'Free Website Audit',
     iconBgColor: '',
     iconColor: 'text-black',
-    hoverIconBgColor: 'bg-[#2641c2]',
+    hoverIconBgColor: 'bg-[#3779d7]',
     groupHoverIconColor: 'text-white'
 };
 

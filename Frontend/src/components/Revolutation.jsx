@@ -54,8 +54,8 @@ function Revolutation() {
                             key={index}
                             onMouseEnter={() => handleMouseEnterDiv(index)}
                             onMouseLeave={handleMouseLeave}
-                            className={`p-4 rounded-lg shadow-[0px_4px_10px_-4px_rgba(0,0,0,0.3),-4px_0px_10px_-4px_rgba(0,0,0,0.3),4px_0px_10px_-4px_rgba(0,0,0,0.3)] 
-                            ${(hoveredIndex === index || hoveredCircleIndex === index) ? 'bg-[#2641c2] text-white' : ''}
+                            className={`p-4 w-full rounded-lg shadow-[0px_4px_10px_-4px_rgba(0,0,0,0.3),-4px_0px_10px_-4px_rgba(0,0,0,0.3),4px_0px_10px_-4px_rgba(0,0,0,0.3)] 
+                            ${(hoveredIndex === index || hoveredCircleIndex === index) ? 'bg-[#3779d7] text-white' : ''}
                             ${hoveredCircleIndex !== null && hoveredCircleIndex !== index ? 'opacity-50' : ''}`}
                         >
                             <p className='text-xl font-semibold'>{item.title}</p>

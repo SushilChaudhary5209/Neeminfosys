@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -11,12 +9,11 @@ import NeemIMS from '../../public/images/NeemIMS.webp';
 import BandhuCRM from '../../public/images/BandhuCRM.webp';
 import WhiteBGButton from './WhiteBGButton';
 
-
 function ImageSlider() {
     const NextArrow = (props) => {
         const { onClick } = props;
         return (
-            <div className="custom-arrow next-arrow w-8 h-8 rounded-full flex items-center justify-center bg-[#2641c2]" onClick={onClick}>
+            <div className="custom-arrow next-arrow w-8 h-8 rounded-full flex items-center justify-center bg-[#3779d7]" onClick={onClick}>
                 <IoIosArrowRoundForward size={50} />
             </div>
         );
@@ -25,7 +22,7 @@ function ImageSlider() {
     const PrevArrow = (props) => {
         const { onClick } = props;
         return (
-            <div className="custom-arrow prev-arrow w-8 h-8 rounded-full flex items-center justify-center bg-[#2641c2] " onClick={onClick}>
+            <div className="custom-arrow prev-arrow w-8 h-8 rounded-full flex items-center justify-center bg-[#3779d7]" onClick={onClick}>
                 <IoIosArrowRoundBack size={50} />
             </div>
         );
@@ -39,10 +36,14 @@ function ImageSlider() {
         nextArrow: <NextArrow />,
         prevArrow: <PrevArrow />,
         arrows: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        pauseOnHover: true,
+        draggable: true,
     };
 
     return (
-        <div className='bg-[#e8f1e9]'>
+        <div className='bg-[#c9e1ee]'>
             <div className="slider-container w-full text-white">
                 <Slider {...settings}>
                     <div className='w-[100%]'>
