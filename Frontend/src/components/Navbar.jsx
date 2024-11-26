@@ -157,7 +157,7 @@ function Navbar() {
                       {isPricingHovered ? <FaCaretUp /> : <FaCaretDown />}
                     </a>
                     <div className="w-72 hidden group-hover:block absolute z-10 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow">
-                      <ul className="py-2 text-sm text-black">
+                      <ul className="py-2 text-sm text-[#2641c2]">
                         <li>
                           <a
                             href="/pricing/webdevelopmentpackage"
@@ -171,7 +171,7 @@ function Navbar() {
                         </li>
                         <li>
                           <a
-                            href="#"
+                            href="/pricing/seopackage"
                             className="flex items-center  gap-6 font-semibold px-4 py-2 hover:bg-gray-100"
                           >
                             <div className="w-6 h-6 bg-pink-100 rounded flex items-center justify-center">

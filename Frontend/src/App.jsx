@@ -13,6 +13,7 @@ import Product from './pages/Product';
 import Contact from './pages/Contact';
 import Career from './pages/Career';
 import WebDevelopmentPackage from './pages/WebDevelopmentPackage';
+import SEOPackage from './pages/SEOPackage';
 
 
 
@@ -31,6 +32,7 @@ const AppContent = () => {
         <Route path='/contact' element={<Contact />} />
         <Route path="/career" element={<Career />} />
         <Route path="/pricing/webdevelopmentpackage" element={<WebDevelopmentPackage />} />
+        <Route path="/pricing/seopackage" element={<SEOPackage />} />
       </Routes>
       <Footer />
     </div>

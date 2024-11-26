@@ -1,4 +1,5 @@
 
+
 import React, { useEffect, useRef } from 'react';
 import { FaCheck } from 'react-icons/fa6';
 import man_animation_video from '../../public/videos/man-animation-video.mp4';
@@ -19,6 +20,25 @@ function WhyChoseUs() {
         }
     }, []);
 
+    const features = [
+        {
+            title: 'Quality',
+            description: 'We aim to deliver high-quality products. Hence, we take care of everything at the granular level.',
+        },
+        {
+            title: 'Reliability',
+            description: 'Our teams are made up of highly-skilled and certified engineers with industry-specific domain knowledge.',
+        },
+        {
+            title: 'Flexibility',
+            description: 'Our team keeps the requirements of our clients on priority & the development process transparent.',
+        },
+        {
+            title: 'Competence',
+            description: 'Our team consists of expert developers who have knowledge of domain expertise for all business industries.',
+        }
+    ];
+
     return (
         <div className='w-[80%] flex flex-col items-center justify-center gap-6'>
             <div className='w-[60%] flex flex-col items-center gap-6'>
@@ -30,11 +50,11 @@ function WhyChoseUs() {
             <div className='w-full flex gap-8'>
                 <div className='w-[50%] flex justify-center'>
                     <div className='w-[60%] flex justify-center'>
-                        <video autoPlay muted loop playsInline ref={videoRef} src={man_animation_video} ></video>
+                        <video autoPlay muted loop playsInline ref={videoRef} src={man_animation_video}></video>
                     </div>
                 </div>
                 <div className='w-[50%] flex flex-col gap-6'>
-                    {[...Array(4)].map((_, index) => (
+                    {features.map((feature, index) => (
                         <div key={index} className='p-4 group rounded-lg hover:bg-[#2641c2] flex gap-2 shadow-[0px_4px_10px_-4px_rgba(0,0,0,0.3),-4px_0px_10px_-4px_rgba(0,0,0,0.3),4px_0px_10px_-4px_rgba(0,0,0,0.3)]'>
                             <div className='w-[10%] group flex justify-center'>
                                 <div className='w-6 h-6 text-white group-hover:text-[#2641c2] rounded-full bg-[#2641c2] group-hover:bg-white flex justify-center items-center'>
@@ -42,8 +62,8 @@ function WhyChoseUs() {
                                 </div>
                             </div>
                             <div className='group-hover:text-white flex flex-col gap-2'>
-                                <p className='text-lg font-semibold'>Quality</p>
-                                <p>We aim to deliver high-quality products. Hence, we take care of everything at the granular level.</p>
+                                <p className='text-lg font-semibold'>{feature.title}</p>
+                                <p>{feature.description}</p>
                             </div>
                         </div>
                     ))}
