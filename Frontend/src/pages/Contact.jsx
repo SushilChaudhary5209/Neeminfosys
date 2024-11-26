@@ -1,9 +1,7 @@
 import React from 'react'
-import { BiSolidMessageEdit } from "react-icons/bi";
 
+import { IoMdMail } from "react-icons/io";
 import flag_nepal from '../../public/images/flag-nepal.png';
-import Captcha from '../components/Captcha';
-import Button from '../components/Button';
 import Form from '../components/Form';
 
 function Contact() {
@@ -25,10 +23,10 @@ function Contact() {
                             <p className='font-semibold'>Become a Partner</p>
                         </div>
                     </div>
-                    <div>
+                    <div className='flex flex-col gap-3'>
                         <p className='text-2xl font-semibold'>Contact Info:</p>
                         <div className='flex items-center gap-2'>
-                            <BiSolidMessageEdit className='text-2xl text-[#2641c2]' />
+                            <IoMdMail className='text-2xl text-[#2641c2]' />
                             <p>neeminfosys@gmail.com</p>
                         </div>
                         <div className='flex items-center gap-2'>

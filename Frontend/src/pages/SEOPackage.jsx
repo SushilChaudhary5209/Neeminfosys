@@ -19,65 +19,65 @@ const seoPackageData01 = [
                 ]
             },
             {
-                category: 'on page setup', items: [
-                    { text: 'keyword Research', icon: 'check' },
-                    { text: 'keyword mapping', icon: 'close' },
-                    { text: 'few major pages meta and heading tag optimization', icon: 'check' },
-                    { text: 'URL optimization', icon: 'check' },
-                    { text: 'Image optimization', icon: 'check' },
-                    { text: '2 SEO optimized blog articles', icon: 'check' },
-                    { text: 'Few existing content optimization', icon: 'check' }
+                category: 'On Page Setup', items: [
+                    { text: 'Keyword Research', icon: 'check' },
+                    { text: 'Keyword Mapping', icon: 'close' },
+                    { text: 'Few Major Pages Meta And Heading Tag Optimization', icon: 'check' },
+                    { text: 'URL Optimization', icon: 'check' },
+                    { text: 'Image Optimization', icon: 'check' },
+                    { text: '2 SEO Optimized Blog Articles', icon: 'check' },
+                    { text: 'Few Existing Content Optimization', icon: 'check' }
                 ]
             },
             {
-                category: 'technical SEO', items: [
+                category: 'Technical SEO', items: [
                     { text: 'Canonical URL Addition', icon: 'check' },
-                    { text: 'custom 404 page setup', icon: 'check' },
-                    { text: 'OG tags', icon: 'check' },
-                    { text: 'page redirection', icon: 'check' },
-                    { text: 'sitemap', icon: 'check' },
-                    { text: 'robots.txt', icon: 'check' },
-                    { text: 'browser compatibility check', icon: 'check' },
-                    { text: 'page speed optimization', icon: 'check' },
-                    { text: 'broken link fixing', icon: 'close' },
-                    { text: 'site architecture', icon: 'close' },
-                    { text: 'mobile friendliness', icon: 'close' },
-                    { text: 'solve keyword cannibalization', icon: 'close' },
-                    { text: 'hreflang tags', icon: 'close' },
-                    { text: 'competitor backlink research', icon: 'close' },
-                    { text: 'other webmaster optimization', icon: 'close' }
+                    { text: 'Custom 404 Page Setup', icon: 'check' },
+                    { text: 'OG Tags', icon: 'check' },
+                    { text: 'Page Redirection', icon: 'check' },
+                    { text: 'Sitemap', icon: 'check' },
+                    { text: 'Robots.txt', icon: 'check' },
+                    { text: 'Browser Bompatibility Check', icon: 'check' },
+                    { text: 'Page Speed Optimization', icon: 'check' },
+                    { text: 'Broken Link Fixing', icon: 'close' },
+                    { text: 'Site Architecture', icon: 'close' },
+                    { text: 'Mobile Friendliness', icon: 'close' },
+                    { text: 'Solve Keyword Cannibalization', icon: 'close' },
+                    { text: 'Hreflang Tags', icon: 'close' },
+                    { text: 'Competitor Backlink Research', icon: 'close' },
+                    { text: 'Other Webmaster Optimization', icon: 'close' }
                 ]
             },
             {
-                category: 'off page SEO', items: [
-                    { text: 'link building', icon: 'close' },
-                    { text: 'guest blogging', icon: 'close' },
-                    { text: 'Directory submission', icon: 'close' },
-                    { text: 'quora posting', icon: 'check' },
-                    { text: 'reddit posting', icon: 'check' },
-                    { text: 'schema implementation', icon: 'close' },
-                    { text: 'conversion tracking', icon: 'close' },
-                    { text: 'infographic creation and sharing', icon: 'close' }
+                category: 'Off Page SEO', items: [
+                    { text: 'Link Building', icon: 'close' },
+                    { text: 'Guest Blogging', icon: 'close' },
+                    { text: 'Directory Submission', icon: 'close' },
+                    { text: 'Quora Posting', icon: 'check' },
+                    { text: 'Reddit Posting', icon: 'check' },
+                    { text: 'Schema Implementation', icon: 'close' },
+                    { text: 'Conversion Tracking', icon: 'close' },
+                    { text: 'Infographic Creation And Sharing', icon: 'close' }
                 ]
             },
             {
-                category: 'local SEO', items: [
-                    { text: 'GMB setup & optimization', icon: 'check' },
-                    { text: 'GMB posting', icon: 'close' },
-                    { text: 'google map creation', icon: 'check' },
-                    { text: 'local citation', icon: 'close' }
+                category: 'Local SEO', items: [
+                    { text: 'GMB Setup & Optimization', icon: 'check' },
+                    { text: 'GMB Posting', icon: 'close' },
+                    { text: 'Google Map Creation', icon: 'check' },
+                    { text: 'Local Citation', icon: 'close' }
                 ]
             },
             {
-                category: 'monthly report', items: [
-                    { text: 'work done report', icon: 'check' },
-                    { text: 'on page report', icon: 'check' },
-                    { text: 'backlink report', icon: 'close' },
-                    { text: 'traffic by country', icon: 'check' },
-                    { text: 'traffic comparison', icon: 'check' },
-                    { text: 'top 10 performing pages', icon: 'check' },
-                    { text: 'top 10 keywords', icon: 'check' },
-                    { text: 'clicks, impression, position', icon: 'check' },
+                category: 'Monthly Report', items: [
+                    { text: 'Work Done Report', icon: 'check' },
+                    { text: 'On Page Report', icon: 'check' },
+                    { text: 'Backlink Report', icon: 'close' },
+                    { text: 'Traffic By Country', icon: 'check' },
+                    { text: 'Traffic Comparison', icon: 'check' },
+                    { text: 'Top 10 Performing Pages', icon: 'check' },
+                    { text: 'Top 10 Keywords', icon: 'check' },
+                    { text: 'Clicks, Impression, Position', icon: 'check' },
                 ]
             }
         ]
@@ -89,75 +89,75 @@ const seoPackageData02 = [
         title: 'Professional', price: '49,999/', period: 'mon', description: 'Preferred for mid size Businesses', features: [
             {
                 category: 'Initial website analysis', items: [
-                    { text: 'upto 20 keyword ranking', icon: 'check' },
-                    { text: 'site audit', icon: 'check' },
-                    { text: 'competitor analysis', icon: 'check' },
-                    { text: 'google analytics setup', icon: 'check' },
-                    { text: 'google search console setup', icon: 'check' },
-                    { text: 'robots.txt creation', icon: 'check' },
-                    { text: 'sitemap creation', icon: 'check' }
+                    { text: 'Upto 20 Keyword Ranking', icon: 'check' },
+                    { text: 'Site Audit', icon: 'check' },
+                    { text: 'Competitor Analysis', icon: 'check' },
+                    { text: 'Google Analytics Setup', icon: 'check' },
+                    { text: 'Google Search Console Setup', icon: 'check' },
+                    { text: 'Robots.txt Creation', icon: 'check' },
+                    { text: 'Sitemap Creation', icon: 'check' }
                 ]
             },
             {
-                category: 'on page setup', items: [
-                    { text: 'keyword Research', icon: 'check' },
-                    { text: 'keyword mapping', icon: 'check' },
-                    { text: 'major pages meta and heading tag optimization', icon: 'check' },
-                    { text: 'URL optimization', icon: 'check' },
-                    { text: 'Image optimization', icon: 'check' },
-                    { text: '4 SEO optimized blog articles', icon: 'check' },
-                    { text: 'existing major page content optimization', icon: 'check' }
+                category: 'On Page Setup', items: [
+                    { text: 'Keyword Research', icon: 'check' },
+                    { text: 'Keyword Mapping', icon: 'check' },
+                    { text: 'Major Pages Meta And Heading Tag Optimization', icon: 'check' },
+                    { text: 'URL Optimization', icon: 'check' },
+                    { text: 'Image Optimization', icon: 'check' },
+                    { text: '4 SEO Optimized Blog Articles', icon: 'check' },
+                    { text: 'Existing Major Page Content Optimization', icon: 'check' }
                 ]
             },
             {
-                category: 'technical SEO', items: [
+                category: 'Technical SEO', items: [
                     { text: 'Canonical URL Addition', icon: 'check' },
-                    { text: 'custom 404 page setup', icon: 'check' },
-                    { text: 'OG tags', icon: 'check' },
-                    { text: 'page redirection', icon: 'check' },
-                    { text: 'sitemap', icon: 'check' },
-                    { text: 'robots.txt', icon: 'check' },
-                    { text: 'browser compatibility check', icon: 'check' },
-                    { text: 'page speed optimization', icon: 'check' },
-                    { text: 'broken link fixing', icon: 'check' },
-                    { text: 'site architecture', icon: 'check' },
-                    { text: 'mobile friendliness', icon: 'check' },
-                    { text: 'solve keyword cannibalization', icon: 'check' },
-                    { text: 'hreflang tags', icon: 'close' },
-                    { text: 'competitor backlink research', icon: 'close' },
-                    { text: 'bing webmaster optimization', icon: 'check' }
+                    { text: 'Custom 404 Page Setup', icon: 'check' },
+                    { text: 'OG Tags', icon: 'check' },
+                    { text: 'Page Redirection', icon: 'check' },
+                    { text: 'Sitemap', icon: 'check' },
+                    { text: 'Robots.txt', icon: 'check' },
+                    { text: 'Browser Compatibility Check', icon: 'check' },
+                    { text: 'Page Speed Optimization', icon: 'check' },
+                    { text: 'Broken Link Fixing', icon: 'check' },
+                    { text: 'Site Architecture', icon: 'check' },
+                    { text: 'Mobile Friendliness', icon: 'check' },
+                    { text: 'Solve Keyword Cannibalization', icon: 'check' },
+                    { text: 'Hreflang Tags', icon: 'close' },
+                    { text: 'Competitor Backlink Research', icon: 'close' },
+                    { text: 'Bing Webmaster Optimization', icon: 'check' }
                 ]
             },
             {
-                category: 'off page SEO', items: [
-                    { text: 'link building', icon: 'check' },
-                    { text: 'guest blogging', icon: 'close' },
-                    { text: 'few Directory submission', icon: 'check' },
-                    { text: 'few weekly post on quora', icon: 'check' },
-                    { text: 'few weekly post on reddit', icon: 'check' },
-                    { text: 'schema implementation', icon: 'check' },
-                    { text: 'conversion tracking', icon: 'close' },
-                    { text: 'few infographic creation and sharing', icon: 'check' }
+                category: 'Off Page SEO', items: [
+                    { text: 'Link Building', icon: 'check' },
+                    { text: 'Guest Blogging', icon: 'close' },
+                    { text: 'Few Directory Submission', icon: 'check' },
+                    { text: 'Few Weekly Post On Quora', icon: 'check' },
+                    { text: 'Few Weekly Post On Reddit', icon: 'check' },
+                    { text: 'Schema Implementation', icon: 'check' },
+                    { text: 'Conversion Tracking', icon: 'close' },
+                    { text: 'Few Infographic Creation And Sharing', icon: 'check' }
                 ]
             },
             {
-                category: 'local SEO', items: [
-                    { text: 'GMB setup & optimization', icon: 'check' },
-                    { text: 'GMB posting', icon: 'check' },
-                    { text: 'google map creation', icon: 'check' },
-                    { text: 'few local citation', icon: 'check' }
+                category: 'Local SEO', items: [
+                    { text: 'GMB Setup & Optimization', icon: 'check' },
+                    { text: 'GMB Posting', icon: 'check' },
+                    { text: 'Google Map Creation', icon: 'check' },
+                    { text: 'Few Local Citation', icon: 'check' }
                 ]
             },
             {
-                category: 'monthly report', items: [
-                    { text: 'work done report', icon: 'check' },
-                    { text: 'on page report', icon: 'check' },
-                    { text: 'backlink report', icon: 'check' },
-                    { text: 'traffic by country', icon: 'check' },
-                    { text: 'traffic comparison', icon: 'check' },
-                    { text: 'top 10 performing pages', icon: 'check' },
-                    { text: 'top 10 keywords', icon: 'check' },
-                    { text: 'clicks, impression, position', icon: 'check' },
+                category: 'Monthly Report', items: [
+                    { text: 'Work Done Report', icon: 'check' },
+                    { text: 'On Page Report', icon: 'check' },
+                    { text: 'Backlink Report', icon: 'check' },
+                    { text: 'Traffic By Country', icon: 'check' },
+                    { text: 'Traffic Comparison', icon: 'check' },
+                    { text: 'Top 10 Performing Pages', icon: 'check' },
+                    { text: 'Top 10 Keywords', icon: 'check' },
+                    { text: 'Clicks, Impression, Position', icon: 'check' },
                 ]
             }
         ]
@@ -168,8 +168,8 @@ const seoPackageData03 = [
     {
         title: 'Premium', price: ' 79,999/', period: 'mon', description: 'Preferred for large Businessess', features: [
             {
-                category: 'Initial website analysis', items: [
-                    { text: 'upto 40 keyword ranking', icon: 'check' },
+                category: 'Initial Website Analysis', items: [
+                    { text: 'Upto 40 Keyword Ranking', icon: 'check' },
                     { text: 'Site Audit', icon: 'check' },
                     { text: 'Competitor Analysis', icon: 'check' },
                     { text: 'Google Analytics Setup', icon: 'check' },
@@ -179,65 +179,65 @@ const seoPackageData03 = [
                 ]
             },
             {
-                category: 'on page setup', items: [
-                    { text: 'keyword Research', icon: 'check' },
-                    { text: 'keyword mapping', icon: 'check' },
-                    { text: 'major pages meta and heading tag optimization', icon: 'check' },
-                    { text: 'URL optimization', icon: 'check' },
-                    { text: 'Image optimization', icon: 'check' },
-                    { text: '6 SEO optimized blog artic', icon: 'check' },
-                    { text: 'existing major page content optimization', icon: 'check' }
+                category: 'On Page Setup', items: [
+                    { text: 'Keyword Research', icon: 'check' },
+                    { text: 'Keyword Mapping', icon: 'check' },
+                    { text: 'Major Pages Meta And Heading Tag Optimization', icon: 'check' },
+                    { text: 'URL Optimization', icon: 'check' },
+                    { text: 'Image Optimization', icon: 'check' },
+                    { text: '6 SEO Optimized Blog Artic', icon: 'check' },
+                    { text: 'Existing Major Page Content Optimization', icon: 'check' }
                 ]
             },
             {
-                category: 'technical SEO', items: [
+                category: 'Technical SEO', items: [
                     { text: 'Canonical URL Addition', icon: 'check' },
-                    { text: 'custom 404 page setup', icon: 'check' },
-                    { text: 'OG tags', icon: 'check' },
-                    { text: 'page redirection', icon: 'check' },
-                    { text: 'sitemap', icon: 'check' },
-                    { text: 'robots.txt', icon: 'check' },
-                    { text: 'browser compatibility check', icon: 'check' },
-                    { text: 'page speed optimization', icon: 'check' },
-                    { text: 'broken link fixing', icon: 'check' },
-                    { text: 'site architecture', icon: 'check' },
-                    { text: 'mobile friendliness', icon: 'check' },
-                    { text: 'solve keyword cannibalization', icon: 'check' },
-                    { text: 'hreflang tags', icon: 'close' },
-                    { text: 'competitor backlink research', icon: 'close' },
-                    { text: 'bing webmaster optimization', icon: 'check' }
+                    { text: 'Custom 404 Page Setup', icon: 'check' },
+                    { text: 'OG Tags', icon: 'check' },
+                    { text: 'Page Redirection', icon: 'check' },
+                    { text: 'Sitemap', icon: 'check' },
+                    { text: 'Robots.txt', icon: 'check' },
+                    { text: 'Browser Compatibility Check', icon: 'check' },
+                    { text: 'Page Speed Optimization', icon: 'check' },
+                    { text: 'Broken Link Fixing', icon: 'check' },
+                    { text: 'Site Architecture', icon: 'check' },
+                    { text: 'Mobile Friendliness', icon: 'check' },
+                    { text: 'Solve Keyword Cannibalization', icon: 'check' },
+                    { text: 'Hreflang Tags', icon: 'close' },
+                    { text: 'Competitor Backlink research', icon: 'close' },
+                    { text: 'Bing Webmaster Optimization', icon: 'check' }
                 ]
             },
             {
-                category: 'off page SEO', items: [
-                    { text: 'link building', icon: 'check' },
-                    { text: 'guest blogging', icon: 'check' },
-                    { text: 'few Directory submission', icon: 'check' },
-                    { text: 'active on quora', icon: 'check' },
-                    { text: 'active on reddit', icon: 'check' },
-                    { text: 'schema implementation', icon: 'check' },
-                    { text: 'conversion tracking', icon: 'check' },
-                    { text: 'monthly 1 infographic creation and sharing', icon: 'check' }
+                category: 'Off Page SEO', items: [
+                    { text: 'Link Building', icon: 'check' },
+                    { text: 'Guest Blogging', icon: 'check' },
+                    { text: 'Few Directory Submission', icon: 'check' },
+                    { text: 'Active On Quora', icon: 'check' },
+                    { text: 'Active On Reddit', icon: 'check' },
+                    { text: 'Schema Implementation', icon: 'check' },
+                    { text: 'Conversion Tracking', icon: 'check' },
+                    { text: 'Monthly 1 Infographic Creation And Sharing', icon: 'check' }
                 ]
             },
             {
-                category: 'local SEO', items: [
-                    { text: 'GMB setup & optimization', icon: 'check' },
-                    { text: 'GMB posting', icon: 'check' },
-                    { text: 'google map creation', icon: 'check' },
-                    { text: 'local citation', icon: 'check' }
+                category: 'Local SEO', items: [
+                    { text: 'GMB Setup & Optimization', icon: 'check' },
+                    { text: 'GMB Posting', icon: 'check' },
+                    { text: 'Google Map Creation', icon: 'check' },
+                    { text: 'Local Citation', icon: 'check' }
                 ]
             },
             {
-                category: 'monthly report', items: [
-                    { text: 'work done report', icon: 'check' },
-                    { text: 'on page report', icon: 'check' },
-                    { text: 'backlink report', icon: 'check' },
-                    { text: 'traffic by country', icon: 'check' },
-                    { text: 'traffic comparison', icon: 'check' },
-                    { text: 'top 10 performing pages', icon: 'check' },
-                    { text: 'top 10 keywords', icon: 'check' },
-                    { text: 'clicks, impression, position', icon: 'check' },
+                category: 'Monthly Report', items: [
+                    { text: 'Work Done Report', icon: 'check' },
+                    { text: 'On Page Report', icon: 'check' },
+                    { text: 'Backlink Report', icon: 'check' },
+                    { text: 'Traffic By Country', icon: 'check' },
+                    { text: 'Traffic Comparison', icon: 'check' },
+                    { text: 'Top 10 Performing Pages', icon: 'check' },
+                    { text: 'Top 10 Keywords', icon: 'check' },
+                    { text: 'Clicks, Impression, Position', icon: 'check' },
                 ]
             }
         ]
@@ -248,7 +248,7 @@ const seoPackageData04 = [
     {
         title: 'Premium Plus', description: 'Preferred for highly competitive Businesses', features: [
             {
-                category: 'Initial website analysis', items: [
+                category: 'Initial Website Analysis', items: [
                     { text: 'Upto 160 Keyword Ranking', icon: 'check' },
                     { text: 'Site Audit', icon: 'check' },
                     { text: 'Competitor Analysis', icon: 'check' },
@@ -259,65 +259,65 @@ const seoPackageData04 = [
                 ]
             },
             {
-                category: 'on page setup', items: [
-                    { text: 'keyword Research', icon: 'check' },
-                    { text: 'keyword mapping', icon: 'check' },
-                    { text: 'almost all pages meta and heading tag optimization', icon: 'check' },
-                    { text: 'URL optimization', icon: 'check' },
-                    { text: 'Image optimization', icon: 'check' },
-                    { text: '8 SEO optimized blog articles', icon: 'check' },
-                    { text: 'existing major page content optimization', icon: 'check' }
+                category: 'On Page Setup', items: [
+                    { text: 'Keyword Research', icon: 'check' },
+                    { text: 'Keyword mapping', icon: 'check' },
+                    { text: 'Almost All Pages Meta And Heading Tag Optimization', icon: 'check' },
+                    { text: 'URL Optimization', icon: 'check' },
+                    { text: 'Image Optimization', icon: 'check' },
+                    { text: '8 SEO Optimized Blog Articles', icon: 'check' },
+                    { text: 'Existing Major Page Content Optimization', icon: 'check' }
                 ]
             },
             {
-                category: 'technical SEO', items: [
+                category: 'Technical SEO', items: [
                     { text: 'Canonical URL Addition', icon: 'check' },
-                    { text: 'custom 404 page setup', icon: 'check' },
-                    { text: 'OG tags', icon: 'check' },
-                    { text: 'page redirection', icon: 'check' },
-                    { text: 'sitemap', icon: 'check' },
-                    { text: 'robots.txt', icon: 'check' },
-                    { text: 'browser compatibility check', icon: 'check' },
-                    { text: 'page speed optimization', icon: 'check' },
-                    { text: 'broken link fixing', icon: 'check' },
-                    { text: 'site architecture', icon: 'check' },
-                    { text: 'mobile friendliness', icon: 'check' },
-                    { text: 'solve keyword cannibalization', icon: 'check' },
-                    { text: 'hreflang tags', icon: 'check' },
-                    { text: 'competitor backlink research', icon: 'check' },
-                    { text: 'bing and other webmaster optimization', icon: 'check' }
+                    { text: 'Custom 404 Page Setup', icon: 'check' },
+                    { text: 'OG Tags', icon: 'check' },
+                    { text: 'Page Redirection', icon: 'check' },
+                    { text: 'Sitemap', icon: 'check' },
+                    { text: 'Robots.txt', icon: 'check' },
+                    { text: 'Browser Compatibility Check', icon: 'check' },
+                    { text: 'Page Speed Optimization', icon: 'check' },
+                    { text: 'Broken Link Fixing', icon: 'check' },
+                    { text: 'Site Architecture', icon: 'check' },
+                    { text: 'Mobile Friendliness', icon: 'check' },
+                    { text: 'Solve Keyword Cannibalization', icon: 'check' },
+                    { text: 'Hreflang Tags', icon: 'check' },
+                    { text: 'Competitor Backlink Research', icon: 'check' },
+                    { text: 'Bing And Other Webmaster Optimization', icon: 'check' }
                 ]
             },
             {
-                category: 'off page SEO', items: [
-                    { text: 'link building', icon: 'check' },
-                    { text: 'guest blogging', icon: 'check' },
-                    { text: 'few Directory submission', icon: 'check' },
-                    { text: 'active on quora', icon: 'check' },
-                    { text: 'active on reddit', icon: 'check' },
-                    { text: 'schema implementation', icon: 'check' },
-                    { text: 'conversion tracking', icon: 'check' },
-                    { text: 'weekly 1 infographic creation and sharing', icon: 'check' }
+                category: 'Off Page SEO', items: [
+                    { text: 'Link Building', icon: 'check' },
+                    { text: 'Guest Blogging', icon: 'check' },
+                    { text: 'Few Directory Submission', icon: 'check' },
+                    { text: 'Active On Quora', icon: 'check' },
+                    { text: 'Active On Reddit', icon: 'check' },
+                    { text: 'Schema Implementation', icon: 'check' },
+                    { text: 'Conversion Tracking', icon: 'check' },
+                    { text: 'Weekly 1 Infographic Creation And Sharing', icon: 'check' }
                 ]
             },
             {
-                category: 'local SEO', items: [
-                    { text: 'GMB setup & optimization', icon: 'check' },
-                    { text: 'GMB posting', icon: 'check' },
-                    { text: 'google map creation', icon: 'check' },
-                    { text: 'local citation', icon: 'check' }
+                category: 'Local SEO', items: [
+                    { text: 'GMB Setup & Optimization', icon: 'check' },
+                    { text: 'GMB Posting', icon: 'check' },
+                    { text: 'Google Map Creation', icon: 'check' },
+                    { text: 'Local Citation', icon: 'check' }
                 ]
             },
             {
-                category: 'monthly report', items: [
-                    { text: 'work done report', icon: 'check' },
-                    { text: 'on page report', icon: 'check' },
-                    { text: 'backlink report', icon: 'check' },
-                    { text: 'traffic by country', icon: 'check' },
-                    { text: 'traffic comparison', icon: 'check' },
-                    { text: 'top 10 performing pages', icon: 'check' },
-                    { text: 'top 10 keywords', icon: 'check' },
-                    { text: 'clicks, impression, position', icon: 'check' },
+                category: 'Monthly Report', items: [
+                    { text: 'Work Done Report', icon: 'check' },
+                    { text: 'On Page Report', icon: 'check' },
+                    { text: 'backlink Report', icon: 'check' },
+                    { text: 'Traffic By Country', icon: 'check' },
+                    { text: 'Traffic Comparison', icon: 'check' },
+                    { text: 'Top 10 Performing Pages', icon: 'check' },
+                    { text: 'Top 10 Keywords', icon: 'check' },
+                    { text: 'Clicks, Impression, Position', icon: 'check' },
                 ]
             }
         ]
