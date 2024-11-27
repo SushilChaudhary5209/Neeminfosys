@@ -350,7 +350,7 @@ function Navbar() {
                         </li>
                         <li>
                           <a
-                            href="#"
+                            href="/pricing/socialmediapackage"
                             className="flex items-center gap-6 font-semibold px-4 py-2 hover:bg-gray-100"
                           >
                             <div className="w-6 h-6 bg-orange-100 rounded flex items-center justify-center">

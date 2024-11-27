@@ -1,6 +1,4 @@
 
-
-
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
@@ -14,6 +12,7 @@ import Contact from './pages/Contact';
 import Career from './pages/Career';
 import WebDevelopmentPackage from './pages/WebDevelopmentPackage';
 import SEOPackage from './pages/SEOPackage';
+import SocialMediaPackage from './pages/SocialMediaPackage';
 
 
 
@@ -33,6 +32,7 @@ const AppContent = () => {
         <Route path="/career" element={<Career />} />
         <Route path="/pricing/webdevelopmentpackage" element={<WebDevelopmentPackage />} />
         <Route path="/pricing/seopackage" element={<SEOPackage />} />
+        <Route path="/pricing/socialmediapackage" element={<SocialMediaPackage />} />
       </Routes>
       <Footer />
     </div>

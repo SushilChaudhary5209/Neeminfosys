@@ -3,6 +3,7 @@ import React from 'react';
 import { FaCheck } from "react-icons/fa6";
 import { IoClose } from "react-icons/io5";
 import './SEOPackage.css';
+import star from '../../public/images/star.svg'
 
 const seoPackageData01 = [
     {
@@ -360,22 +361,24 @@ function SEOPackage() {
                                 {seoPackageData01.map((pkg, idx) => (
                                     <React.Fragment key={idx}>
                                         <div className='flex flex-col items-center justify-between gap-4'>
-                                            <p className='text-3xl'>{pkg.title}</p>
-                                            <p className='flex items-center gap-2'>
-                                                <span>Rs </span>
-                                                <span className='text-3xl'>{pkg.price} </span>
-                                                <span>{pkg.period}</span>
+                                            <p className='text-2xl font-medium'>{pkg.title}</p>
+                                            <p className='text-blue-500 flex items-center gap-2'>
+                                                <span className='font-medium'>Rs </span>
+                                                <span className='text-2xl font-medium'>{pkg.price} </span>
+                                                <span className='font-medium'>{pkg.period}</span>
                                             </p>
                                         </div>
-                                        <p className='text-slate-500 text-center'>{pkg.description}</p>
-                                        <p className='text-center text-slate-500'>---------------------</p>
+                                        <p className='text-slate-500 text-center font-[18px]'>{pkg.description}</p>
+                                        <p className='text-center text-[18px] text-slate-500'>-----------------------------------</p>
                                         {pkg.features.map((feature, fIdx) => (
                                             <div key={fIdx} className='flex flex-col gap-2'>
                                                 <p className='text-lg font-semibold'>{feature.category}</p>
                                                 {feature.items.map((item, iIdx) => (
                                                     <div key={iIdx} className='flex items-center gap-2'>
-                                                        <div className={`w-4 h-4 ${item.icon === 'check' ? 'bg-[#0b7be5]' : 'bg-[#da392e]'} text-white rounded-full flex items-center justify-center`}>
-                                                            <Icon type={item.icon} />
+                                                        <div className='w-5 h-5'>
+                                                            <div className={`w-4 h-4 ${item.icon === 'check' ? 'bg-[#0b7be5]' : 'bg-[#da392e]'} text-white rounded-full flex items-center justify-center`}>
+                                                                <Icon type={item.icon} />
+                                                            </div>
                                                         </div>
                                                         <p className='font-medium text-sm'>{item.text}</p>
                                                     </div>
@@ -403,73 +406,87 @@ function SEOPackage() {
                                 </div>
                             </div>
 
-                            <div className='p-2 flex flex-col gap-4 rounded-xl bg-white shadow-[0px_4px_10px_-4px_rgba(0,0,0,0.3),-4px_0px_10px_-4px_rgba(0,0,0,0.3),4px_0px_10px_-4px_rgba(0,0,0,0.3)]'>
-                                {seoPackageData02.map((pkg, idx) => (
-                                    <React.Fragment key={idx}>
-                                        <div className='flex flex-col items-center justify-between gap-4'>
-                                            <p className='text-3xl'>{pkg.title}</p>
-                                            <p className='flex items-center gap-2'>
-                                                <span>Rs </span>
-                                                <span className='text-3xl'>{pkg.price} </span>
-                                                <span>{pkg.period}</span>
-                                            </p>
-                                        </div>
-                                        <p className='text-slate-500 text-center'>{pkg.description}</p>
-                                        <p className='text-center text-slate-500'>---------------------</p>
-                                        {pkg.features.map((feature, fIdx) => (
-                                            <div key={fIdx} className='flex flex-col gap-2'>
-                                                <p className='text-lg font-semibold'>{feature.category}</p>
-                                                {feature.items.map((item, iIdx) => (
-                                                    <div key={iIdx} className='flex items-center gap-2'>
-                                                        <div className={`w-4 h-4 ${item.icon === 'check' ? 'bg-[#0b7be5]' : 'bg-[#da392e]'} text-white rounded-full flex items-center justify-center`}>
-                                                            <Icon type={item.icon} />
+                            <div className='relative top-[-38px]'>
+                                <div className='p-2 text-white flex justify-center gap-4 rounded-tl-xl rounded-tr-xl bg-blue-500'>
+                                    <div className='flex items-center'>
+                                        <img src={star} alt="" />
+                                    </div>
+                                    <p className='font-medium'>best value</p>
+                                    <div className='flex items-center'>
+                                        <img src={star} alt="" />
+                                    </div>
+                                </div>
+                                <div className='p-2 flex flex-col gap-4 rounded-bl-xl rounded-br-xl bg-white shadow-[0px_4px_10px_-4px_rgba(0,0,0,0.3),-4px_0px_10px_-4px_rgba(0,0,0,0.3),4px_0px_10px_-4px_rgba(0,0,0,0.3)]'>
+                                    {seoPackageData02.map((pkg, idx) => (
+                                        <React.Fragment key={idx}>
+                                            <div className='flex flex-col items-center justify-between gap-4'>
+                                                <p className='text-2xl font-medium'>{pkg.title}</p>
+                                                <p className='text-blue-500 flex items-center gap-2'>
+                                                    <span className='font-medium'>Rs </span>
+                                                    <span className='text-2xl font-medium'>{pkg.price} </span>
+                                                    <span className='font-medium'>{pkg.period}</span>
+                                                </p>
+                                            </div>
+                                            <p className='text-slate-500 text-center font-[18px]'>{pkg.description}</p>
+                                            <p className='text-center text-[18px] text-slate-500'>-----------------------------------</p>
+                                            {pkg.features.map((feature, fIdx) => (
+                                                <div key={fIdx} className='flex flex-col gap-2'>
+                                                    <p className='text-lg font-semibold'>{feature.category}</p>
+                                                    {feature.items.map((item, iIdx) => (
+                                                        <div key={iIdx} className='flex items-center gap-2'>
+                                                            <div className='w-5 h-5'>
+                                                            <div className={`w-4 h-4 ${item.icon === 'check' ? 'bg-[#0b7be5]' : 'bg-[#da392e]'} text-white rounded-full flex items-center justify-center`}>
+                                                                <Icon type={item.icon} />
+                                                            </div>
                                                         </div>
-                                                        <p className='font-medium text-sm'>{item.text}</p>
-                                                    </div>
-                                                ))}
+                                                            <p className='font-medium text-sm'>{item.text}</p>
+                                                        </div>
+                                                    ))}
+                                                </div>
+                                            ))}
+                                        </React.Fragment>
+                                    ))}
+                                    <p className='font-medium'>no dedicated project manager</p>
+                                    <p>
+                                        <span className='font-medium'>Contract: </span>
+                                        <span> Minimum 6 Month</span>
+                                    </p>
+                                    <div className='w-full flex justify-center'>
+                                        {buttonData.map((button, idx) => (
+                                            <div key={idx} className='w-[200px] flex items-center justify-center'>
+                                                <a
+                                                    href={button.href}
+                                                    className='w-[154px] h-[44px] font-semibold py-[10px] px-[24px] text-white rounded-full border bg-[#0b7be5] hover:bg-black flex justify-center items-center hover:w-[156px] hover:h-[46px] transition-all duration-500'
+                                                >
+                                                    {button.label}
+                                                </a>
                                             </div>
                                         ))}
-                                    </React.Fragment>
-                                ))}
-                                <p className='font-medium'>no dedicated project manager</p>
-                                <p>
-                                    <span className='font-medium'>Contract: </span>
-                                    <span> Minimum 6 Month</span>
-                                </p>
-                                <div className='w-full flex justify-center'>
-                                    {buttonData.map((button, idx) => (
-                                        <div key={idx} className='w-[200px] flex items-center justify-center'>
-                                            <a
-                                                href={button.href}
-                                                className='w-[154px] h-[44px] font-semibold py-[10px] px-[24px] text-white rounded-full border bg-[#0b7be5] hover:bg-black flex justify-center items-center hover:w-[156px] hover:h-[46px] transition-all duration-500'
-                                            >
-                                                {button.label}
-                                            </a>
-                                        </div>
-                                    ))}
+                                    </div>
                                 </div>
                             </div>
-
                             <div className='p-2 flex flex-col gap-4 rounded-xl bg-white shadow-[0px_4px_10px_-4px_rgba(0,0,0,0.3),-4px_0px_10px_-4px_rgba(0,0,0,0.3),4px_0px_10px_-4px_rgba(0,0,0,0.3)]'>
                                 {seoPackageData03.map((pkg, idx) => (
                                     <React.Fragment key={idx}>
                                         <div className='flex flex-col items-center justify-between gap-4'>
-                                            <p className='text-3xl'>{pkg.title}</p>
-                                            <p className='flex items-center gap-2'>
-                                                <span>Rs </span>
-                                                <span className='text-3xl'>{pkg.price} </span>
-                                                <span>{pkg.period}</span>
+                                            <p className='text-2xl font-medium'>{pkg.title}</p>
+                                            <p className='text-blue-500 flex items-center gap-2'>
+                                                <span className='font-medium'>Rs </span>
+                                                <span className='text-2xl font-medium'>{pkg.price} </span>
+                                                <span className='font-medium'>{pkg.period}</span>
                                             </p>
                                         </div>
-                                        <p className='text-slate-500 text-center'>{pkg.description}</p>
-                                        <p className='text-center text-slate-500'>---------------------</p>
+                                        <p className='text-slate-500 text-center font-[18px]'>{pkg.description}</p>
+                                        <p className='text-center text-[18px] text-slate-500'>-----------------------------------</p>
                                         {pkg.features.map((feature, fIdx) => (
                                             <div key={fIdx} className='flex flex-col gap-2'>
                                                 <p className='text-lg font-semibold'>{feature.category}</p>
                                                 {feature.items.map((item, iIdx) => (
                                                     <div key={iIdx} className='flex items-center gap-2'>
-                                                        <div className={`w-4 h-4 ${item.icon === 'check' ? 'bg-[#0b7be5]' : 'bg-[#da392e]'} text-white rounded-full flex items-center justify-center`}>
-                                                            <Icon type={item.icon} />
+                                                        <div className='w-5 h-5'>
+                                                            <div className={`w-4 h-4 ${item.icon === 'check' ? 'bg-[#0b7be5]' : 'bg-[#da392e]'} text-white rounded-full flex items-center justify-center`}>
+                                                                <Icon type={item.icon} />
+                                                            </div>
                                                         </div>
                                                         <p className='font-medium text-sm'>{item.text}</p>
                                                     </div>
@@ -501,17 +518,19 @@ function SEOPackage() {
                                 {seoPackageData04.map((pkg, idx) => (
                                     <React.Fragment key={idx}>
                                         <div className='flex flex-col items-center justify-between gap-4'>
-                                            <p className='text-3xl'>{pkg.title}</p>
+                                            <p className='text-2xl font-medium'>{pkg.title}</p>
                                         </div>
-                                        <p className='text-slate-500 text-center'>{pkg.description}</p>
-                                        <p className='text-center text-slate-500'>---------------------</p>
+                                        <p className='text-slate-500 text-center font-[18px]'>{pkg.description}</p>
+                                        <p className='text-center text-[18px] text-slate-500'>-----------------------------------</p>
                                         {pkg.features.map((feature, fIdx) => (
                                             <div key={fIdx} className='flex flex-col gap-2'>
                                                 <p className='text-lg font-semibold'>{feature.category}</p>
                                                 {feature.items.map((item, iIdx) => (
                                                     <div key={iIdx} className='flex items-center gap-2'>
-                                                        <div className={`w-4 h-4 ${item.icon === 'check' ? 'bg-[#0b7be5]' : 'bg-[#da392e]'} text-white rounded-full flex items-center justify-center`}>
-                                                            <Icon type={item.icon} />
+                                                        <div className='w-5 h-5'>
+                                                            <div className={`w-4 h-4 ${item.icon === 'check' ? 'bg-[#0b7be5]' : 'bg-[#da392e]'} text-white rounded-full flex items-center justify-center`}>
+                                                                <Icon type={item.icon} />
+                                                            </div>
                                                         </div>
                                                         <p className='font-medium text-sm'>{item.text}</p>
                                                     </div>
@@ -540,7 +559,7 @@ function SEOPackage() {
                             </div>
                         </div>
                     </div>
-                        <p className='text-slate-500 mt-24 ms-16'>*Note : All of the above packages are exclusive of VAT</p>
+                    <p className='text-slate-500 mt-24 ms-16'>*Note : All of the above packages are exclusive of VAT</p>
                 </div>
             </div>
         </div>
