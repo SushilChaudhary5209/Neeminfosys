@@ -487,8 +487,7 @@ function SEOPackage() {
                                                             <div className={`w-4 h-4 ${item.icon === 'check' ? 'bg-[#0b7be5]' : 'bg-[#da392e]'} text-white rounded-full flex items-center justify-center`}>
                                                                 <Icon type={item.icon} />
                                                             </div>
-                                                        </div>
-                                                        <p className='font-medium text-sm'>{item.text}</p>
+                                                        </div>                                                       <p className='font-medium text-sm'>{item.text}</p>
                                                     </div>
                                                 ))}
                                             </div>
