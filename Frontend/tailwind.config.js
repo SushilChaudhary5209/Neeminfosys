@@ -8,6 +8,8 @@ export default {
     extend: {
       colors: {
         'cosmetic-green': '#1fa741',
+        'custom-blue-start': '#2641c2',
+        'custom-blue-end': '#01BFFD',
       },
     },
   },

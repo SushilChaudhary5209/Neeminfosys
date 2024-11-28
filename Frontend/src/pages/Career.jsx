@@ -50,12 +50,12 @@ const Career = () => (
           <p className='text-5xl font-semibold'>Career Opportunities</p>
           <p className='text-center font-medium'>We are looking for Innovative Thinkers and Creative Executors. Join Us to Challenge, Collaborate, Build and Inspire</p>
         </div>
-        <div className='w-full mt-12 flex flex-col items-center justify-center gap-4'>
+        <div className='w-full mt-12 flex flex-col items-center justify-center gap-8'>
           {jobTitles.map((title, index) => (
-            <div key={index} className='w-full p-4 rounded-md flex justify-center shadow-md'>
-              <a href="#" className='w-[80%] text-[#444444] text-xl font-semibold'>{title}</a>
-              <div className='w-[20%] text-green-500'>
-                <a href="#" className='flex items-center'>
+            <div key={index} className='w-full p-6 rounded-md flex justify-center shadow-[0px_4px_10px_-4px_rgba(0,0,0,0.3),-4px_0px_10px_-4px_rgba(0,0,0,0),4px_0px_10px_-4px_rgba(0,0,0,0.3)]'>
+              <a href="/careers/careerinternship" className='w-[80%] text-[#444444] text-xl font-semibold'>{title}</a>
+              <div className='w-[20%] flex justify-end text-blue-500'>
+                <a href="/careers/careerinternship" className='flex items-center'>
                   <p>View job</p>
                   <IoIosArrowRoundForward className='text-2xl' />
                 </a>

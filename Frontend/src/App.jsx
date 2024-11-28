@@ -13,7 +13,7 @@ import Career from './pages/Career';
 import WebDevelopmentPackage from './pages/WebDevelopmentPackage';
 import SEOPackage from './pages/SEOPackage';
 import SocialMediaPackage from './pages/SocialMediaPackage';
-
+import CareerInternship from './pages/CareerInternship';
 
 
 
@@ -33,6 +33,7 @@ const AppContent = () => {
         <Route path="/pricing/webdevelopmentpackage" element={<WebDevelopmentPackage />} />
         <Route path="/pricing/seopackage" element={<SEOPackage />} />
         <Route path="/pricing/socialmediapackage" element={<SocialMediaPackage />} />
+        <Route path="/careers/careerinternship" element={<CareerInternship />} />
       </Routes>
       <Footer />
     </div>
